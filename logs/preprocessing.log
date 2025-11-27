@@ -1,0 +1,29 @@
+2025-11-27 17:09:16,859 - INFO -  Starting data preprocessing pipeline...
+2025-11-27 17:09:17,042 - INFO - Missing values before cleaning:
+2025-11-27 17:09:17,046 - INFO -   - review_text: 4 missing
+2025-11-27 17:09:17,047 - INFO -   - review_created_version: 1376 missing
+2025-11-27 17:09:17,410 - INFO -  Dates validated and standardized
+2025-11-27 17:09:17,421 - INFO -  Removed 85 reviews outside length limits
+2025-11-27 17:14:15,345 - INFO -  Starting data preprocessing pipeline...
+2025-11-27 17:14:15,381 - INFO - Missing values before cleaning:
+2025-11-27 17:14:15,382 - INFO -   - review_text: 4 missing
+2025-11-27 17:14:15,420 - INFO -   - review_created_version: 1376 missing
+2025-11-27 17:14:15,690 - INFO -  Dates validated and standardized
+2025-11-27 17:14:15,743 - INFO -  Removed 85 reviews outside length limits
+2025-11-27 17:20:28,803 - INFO - Loaded 10056 reviews from ../data/raw/reviews_raw.csv
+2025-11-27 17:20:28,804 - INFO - Validating data structure...
+2025-11-27 17:20:28,804 - INFO - All required columns present
+2025-11-27 17:20:28,805 - INFO - Starting data preprocessing pipeline...
+2025-11-27 17:20:28,812 - INFO - Removed 2245 duplicate reviews
+2025-11-27 17:20:28,818 - INFO - Missing values before cleaning:
+2025-11-27 17:20:28,820 - INFO -   - review_text: 4 missing
+2025-11-27 17:20:28,821 - INFO -   - review_created_version: 1376 missing
+2025-11-27 17:20:28,999 - INFO - Removed 4 rows with missing critical data
+2025-11-27 17:20:29,153 - INFO - Removed 0 rows with invalid ratings
+2025-11-27 17:20:29,177 - INFO - Dates validated and standardized
+2025-11-27 17:20:29,188 - INFO - Removed 85 reviews outside length limits
+2025-11-27 17:20:29,215 - INFO - Preprocessing pipeline completed
+2025-11-27 17:20:29,569 - INFO - Processed data saved to: data/processed/reviews_processed_20251127_172029.csv
+2025-11-27 17:20:29,570 - INFO - Main processed file updated: ../data/processed/reviews_processed.csv
+2025-11-27 17:20:29,580 - INFO - Removed 2245 duplicate reviews
+2025-11-27 17:20:29,597 - INFO - Removed 0 rows with invalid ratings

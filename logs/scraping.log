@@ -1,0 +1,10 @@
+2025-11-27 17:05:58,042 - INFO - Starting scraping process for all banks...
+2025-11-27 17:05:58,043 - INFO - Starting to scrape reviews for CBE (com.combanketh.mobilebanking)
+2025-11-27 17:06:22,254 - INFO - Successfully scraped 8113 reviews for CBE
+2025-11-27 17:06:32,258 - INFO - Starting to scrape reviews for BOA (com.boa.boaMobileBanking)
+2025-11-27 17:06:36,360 - INFO - Successfully scraped 1181 reviews for BOA
+2025-11-27 17:06:46,361 - INFO - Starting to scrape reviews for DASHEN (com.dashen.dashensuperapp)
+2025-11-27 17:06:48,794 - INFO - Successfully scraped 762 reviews for DASHEN
+2025-11-27 17:06:48,795 - INFO - Scraping completed! Total reviews: 10056
+2025-11-27 17:06:49,494 - INFO - Raw data saved to: data/raw/reviews_raw_20251127_170649.csv
+2025-11-27 17:06:49,494 - INFO - Main raw file updated: ../data/raw/reviews_raw.csv

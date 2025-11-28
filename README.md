@@ -18,7 +18,7 @@ This project collects and preprocesses customer reviews from Google Play Store f
 ### 🚀 Quick Start
 
 #### 1. Installation
-```bash
+
 # Clone the repository
 git clone 
 cd fintech-reviews-analysis
@@ -47,6 +47,6 @@ This project analyzes customer sentiment and identifies key themes in bank app r
 ### 🚀 Quick Start
 
 #### 1. Installation
-```bash
+
 # Install Task 2 dependencies
 pip install -r requirements_task2.txt

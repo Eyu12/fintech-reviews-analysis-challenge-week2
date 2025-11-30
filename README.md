@@ -87,35 +87,37 @@ The project was conducted as part of the **10 Academy Week 2 Challenge** and cov
 
 ## Repository Structure
 
+```bash
 FINTECH-REVIEWS-ANALYSIS-CHALLENGE-WEEK2/
-├──. github/workflows/	# CI/CD pipelines (likely GitHub Actions)
-├── data/	# Data directory
-│ ├── processed/	# Cleaned and processed data
-│ ├── raw/	# Original raw data
-│ └── results/	# Analysis outputs
-├── logs/	# Log files
-├── notebooks/	# Jupyter notebooks
-│  ├── preprocessing. ipynb # Data preprocessing & exploratory analysis
-│ └── task2_analysis. ipynb # Main analysis notebook
-├── outputs/                         # Generated outputs and results│
-│├── report/                          # Report documents
-│├── visuals/                         # Charts and graphs
-├── scripts/	# Python modules
-│ ├──   pycache  /
-│ ├── config.py	# Configuration settings
-│ ├── setup_database.py            # Database setup script
-│ ├── preprocessor.py	# Data preprocessing functions
-│ ├── scraper.py	# Data scraping utilities
-│ ├── sentiment_analysis.py # Sentiment analysis functionality
-│ ├── task2_config.py	# Task-specific configuration
-│  ├-── task4_analysis.py            # Task 4 analysis code
-│  ├── task4_report.py              # Task 4 report generation
-│ └── thematic_analysis.py  # Thematic analysis capabilities
-├── .venv/                           # Python virtual environment
-├── .env                             # Environment variables
-├──. gitignore	# Git ignore rules
-├── README.md	# Project documentation
-└── requirements.txt	# Python dependencies
+├── .github/workflows/
+├── data/
+│   ├── processed/
+│   ├── raw/
+│   └── results/
+├── logs/
+├── notebooks/
+│   ├── preprocessing.ipynb
+│   └── task2_analysis.ipynb
+├── outputs/
+│   ├── report/
+│   └── visuals/
+├── scripts/
+│   ├── __pycache__/
+│   ├── config.py
+│   ├── setup_database.py
+│   ├── preprocessor.py
+│   ├── scraper.py
+│   ├── sentiment_analysis.py
+│   ├── task2_config.py
+│   ├── task4_analysis.py
+│   ├── task4_report.py
+│   └── thematic_analysis.py
+├── .venv/
+├── .env
+├── .gitignore
+├── README.md
+└── requirements.txt
+
 ## Setup and Requirements
 
 ### **Python Libraries**
